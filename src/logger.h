@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <pthread.h>
 
-#include "currenttime.h"
+#include <currenttime.h>
 
 #ifndef _INCL_LOGGER
 #define _INCL_LOGGER

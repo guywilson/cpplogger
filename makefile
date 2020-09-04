@@ -73,6 +73,7 @@ $(DEP)/%.d: ;
 install: $(LIBTARGET)
 	cp $(LIB)/$(LIBTARGET) /usr/lib
 	cp $(SOURCE)/logger.h /usr/include
+	cp $(SOURCE)/currenttime.h /usr/include
 
 clean:
 	rm -r $(BUILD)
